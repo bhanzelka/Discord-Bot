@@ -5,6 +5,6 @@ data: new SlashCommandBuilder()
     .setName('miata')
     .setDescription('Replies with Miata picture!'),
 async execute(interaction) {
-    await interaction.reply('Miata picture!');
+    await interaction.client.reply('Miata picture!');
 },
 };
